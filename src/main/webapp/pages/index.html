@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vue and springboot work stark road</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="../css/index00.css">
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+</head>
+<body>
+<div id="vue-app">
+    <h1>{{ biaobai() }}</h1>
+    <p>姓名:{{ name}}</p>
+    <p>年龄:{{ age}}</p>
+    <!--<a v-on:click="inputTest" href="javascript:void(0)">度娘渡我不渡她</a>
+    <input v-model:value="input11"/>-->
+    <p>{{input11}}</p>
+</div>
+<div id="compute-test">
+    <button @click="a++">A++</button>
+     <!--<button v-on:click="b++">B++</button>-->
+     <p>a:= {{a}}</p>
+     <p>b:= {{b}}</p>
+     <p>age + a = {{addA}}</p>
+     <p>age+ b = {{addB}}</p>
+</div>
+<!--动态绑定样式练习-->
+<div id="vue-cssTest">
+    <hr>
+    <h1 >
+        </h1>
+    <!--<div @click="changeColor = !changeColor" v-bind:class="{changeColorCss:changeColor}" >
+        <span>实例一</span>
+        <P>{{color()}}</P>
+    </div>
+    <h2 v-bind:class="">实例二</h2>-->
+</div>
+<script src="../js/index00.js"></script>
+</body>
+</html>
